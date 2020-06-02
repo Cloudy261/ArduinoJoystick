@@ -13,6 +13,7 @@ Get floating point Numbers instead of analogReadings.
  | A3        |      VRy |
  | D2        |      SW |
   
+ Depending on your Joystick, you might need a pulldown Resistor on your Arduino D2 Pin.
  
  # Example
  ```cpp
