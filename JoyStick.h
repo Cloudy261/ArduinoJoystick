@@ -4,7 +4,7 @@
  * @Email:  claudiuslaves@gmx.de
  * @Filename: JoyStick.h
  * @Last modified by:   claudi
- * @Last modified time: 02-06-2020  20:41:28
+ * @Last modified time: 02-06-2020  21:10:15
  */
 #ifndef __JOYSTICK__
 #define __JOYSTICK__
