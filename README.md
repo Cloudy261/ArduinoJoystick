@@ -2,11 +2,14 @@
 Easy to use Library for Arduino Joysticks
 
 # Wiring
-## Arduino         Joystick
-  5V        |      5V \n
-  GND       |      GND \n
-  A2        |      VRx \n
-  A3        |      VRy \n
-  D2        |      SW \n
+ 
+ 
+ |Arduino|         Joystick|
+ |----------|--------------|
+ |5V        |      5V |
+ |GND       |      GND |
+ | A2        |      VRx |
+ | A3        |      VRy |
+ | D2        |      SW |
   
   
