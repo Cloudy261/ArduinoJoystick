@@ -4,7 +4,7 @@
  * @Email:  claudiuslaves@gmx.de
  * @Filename: JoyStick.h
  * @Last modified by:   claudi
- * @Last modified time: 02-06-2020  20:03:47
+ * @Last modified time: 02-06-2020  20:41:28
  */
 #ifndef __JOYSTICK__
 #define __JOYSTICK__
@@ -21,7 +21,7 @@ private:
 
   int mean_x;
   int mean_y;
-  int mean_offset{2};
+  int mean_offset{1};
 
   int x_reading;
   int y_reading;
@@ -33,7 +33,7 @@ private:
   float map_float(int val, int min_in, int max_in, float min_out, float max_out, int mean);
 
 public:
-  JoyStick(): x_pin(A2), y_pin(A3), sw_pin(4){}
+  JoyStick(): x_pin(A2), y_pin(A3), sw_pin(2){}
   JoyStick(int x, int y, int s): x_pin(x), y_pin(y), sw_pin(s){}
   void setOutput(float min, float max);
   void update();
