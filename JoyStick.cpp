@@ -4,7 +4,7 @@
  * @Email:  claudiuslaves@gmx.de
  * @Filename: JoyStick.cpp
  * @Last modified by:   claudi
- * @Last modified time: 02-06-2020  19:58:49
+ * @Last modified time: 02-06-2020  20:03:24
  */
 
 
@@ -70,6 +70,11 @@ float JoyStick::getX()
 float JoyStick::getY()
 {
   return y;
+}
+
+bool JoyStick::isPressed()
+{
+  return (sw_reading == 1);
 }
 
 int JoyStick::getRawX()

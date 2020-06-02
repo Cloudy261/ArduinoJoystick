@@ -4,7 +4,7 @@
  * @Email:  claudiuslaves@gmx.de
  * @Filename: JoyStick.h
  * @Last modified by:   claudi
- * @Last modified time: 02-06-2020  19:59:30
+ * @Last modified time: 02-06-2020  20:03:47
  */
 #ifndef __JOYSTICK__
 #define __JOYSTICK__
@@ -41,6 +41,7 @@ public:
   void autoCalibrate();
   float getX();
   float getY();
+  bool isPressed();
   int getRawX();
   int getRawY();
   void setOffset(int os);
