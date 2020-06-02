@@ -16,6 +16,7 @@ Get floating point Numbers instead of analogReadings.
  Depending on your Joystick, you might need a pulldown Resistor on your Arduino D2 Pin.
  
  # Example
+ In your Arduino IDE, paste the following code (alternatively you can open the included example):
  ```cpp
  
  #include "JoyStick.h"
