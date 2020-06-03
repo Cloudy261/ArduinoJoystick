@@ -4,12 +4,16 @@
  * @Email:  claudiuslaves@gmx.de
  * @Filename: JoyStick.h
  * @Last modified by:   claudi
- * @Last modified time: 02-06-2020  21:10:15
+ * @Last modified time: 03-06-2020  14:04:38
  */
 #ifndef __JOYSTICK__
 #define __JOYSTICK__
 
 #include "Arduino.h"
+
+
+#define MAX_READ_VALUE 1023
+#define MIN_READ_VALUE 0
 
 class JoyStick{
 private:

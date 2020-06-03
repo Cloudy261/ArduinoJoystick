@@ -4,7 +4,7 @@
  * @Email:  claudiuslaves@gmx.de
  * @Filename: JoyStick.cpp
  * @Last modified by:   claudi
- * @Last modified time: 02-06-2020  21:07:53
+ * @Last modified time: 03-06-2020  14:05:49
  */
 
 
@@ -32,8 +32,8 @@ void JoyStick::update()
   x_reading = analogRead(x_pin);
   y_reading = analogRead(y_pin);
   sw_reading = digitalRead(sw_pin);
-  x = map_float(x_reading, 0, 1023, min_out, max_out, mean_x);
-  y = map_float(y_reading, 0, 1023, min_out, max_out, mean_y);
+  x = map_float(x_reading, MIN_READ_VALUE, MAX_READ_VALUE, min_out, max_out, mean_x);
+  y = map_float(y_reading, MIN_READ_VALUE, MAX_READ_VALUE, min_out, max_out, mean_y);
 }
 
 void JoyStick::autoCalibrate()
