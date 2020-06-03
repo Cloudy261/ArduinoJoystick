@@ -1,6 +1,6 @@
 # ArduinoJoystick
 Easy to use Library for Arduino Joysticks.
-Get floating point Numbers instead of analogReadings. 
+Get floating point Numbers between -1.0 and 1.0 (or whatever you like) instead of analogReadings. 
 
 # Wiring
  
